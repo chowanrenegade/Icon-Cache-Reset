@@ -1,0 +1,1 @@
+taskkill /f /im explorer.exe; Get-ChildItem "$env:localappdata\Microsoft\Windows\Explorer" -Filter iconcache* | Remove-Item -Force; start explorer.exe
